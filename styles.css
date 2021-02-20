@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    color: black;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: space-between;
+}
+
+.general-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.store {
+    margin-left: 20px;
+}
+
+.personal-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    margin-left: 20px;
+}
+
+.content-container {
+    border: 1px solid black;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.search-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+}
